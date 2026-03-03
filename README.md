@@ -5,7 +5,7 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B)
 ![Status](https://img.shields.io/badge/Status-Research_Prototype-success)
 
-**🔴 Live Interactive Dashboard:** [orbitalcompute-ai.streamlit.app](https://orbitalcompute-ai.streamlit.app)
+**🔴 Live Interactive Dashboard:** [orbitalcompute-ai.streamlit.app](https://orbitalcompute-ai.streamlit.app) 📄 Research Paper: [https://github.com/Alien0427/Sat-XKG/releases/tag/v1.0.0](https://github.com/Alien0427/Sat-XKG/releases/tag/v1.0.0)
 
 **OrbitalCompute-AI** (also known as Sat-XKG) is a decentralized, edge-native framework designed to bypass the terrestrial communication bottlenecks typical of large-scale natural disasters. By shifting Graph Neural Network (GNN) inference directly to "Edge" hardware (such as LEO satellites or high-altitude UAVs), this system enables real-time resource routing and infrastructure assessment even when ground networks are completely destroyed.
 
@@ -43,3 +43,16 @@ Ensure you have Python 3.9+ installed. It is recommended to use a virtual enviro
    ```bash
    git clone [https://github.com/YOUR_USERNAME/Sat-XKG.git](https://github.com/YOUR_USERNAME/Sat-XKG.git)
    cd Sat-XKG
+2.Install the required dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3.Running the Disaster Simulation Dashboard
+
+To launch the interactive visualization and telemetry dashboard, execute:
+```bash
+streamlit run app.py
+```
+
+This will open a local web server (typically http://localhost:8501) where you can toggle between simulated disaster zones (e.g., Wayanad, Kerala vs. Puri, Odisha) and observe real-time dynamic graph severing and Edge AI telemetry.
