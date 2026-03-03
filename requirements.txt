@@ -1,0 +1,14 @@
+numpy
+pandas
+networkx
+matplotlib
+torch
+torch-geometric
+scipy
+scikit-learn
+osmnx
+shapely
+geopandas
+rasterio
+streamlit
+
