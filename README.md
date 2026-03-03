@@ -44,15 +44,15 @@ Ensure you have Python 3.9+ installed. It is recommended to use a virtual enviro
    git clone [https://github.com/YOUR_USERNAME/Sat-XKG.git](https://github.com/YOUR_USERNAME/Sat-XKG.git)
    cd Sat-XKG
 2.Install the required dependencies:
-```bash
-pip install -r requirements.txt
+ ```bash
+  pip install -r requirements.txt
 ```
 
 3.Running the Disaster Simulation Dashboard
 
 To launch the interactive visualization and telemetry dashboard, execute:
 ```bash
-streamlit run app.py
+  streamlit run app.py
 ```
 
 This will open a local web server (typically http://localhost:8501) where you can toggle between simulated disaster zones (e.g., Wayanad, Kerala vs. Puri, Odisha) and observe real-time dynamic graph severing and Edge AI telemetry.
