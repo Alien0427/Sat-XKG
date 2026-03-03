@@ -1,14 +1,9 @@
-numpy
+streamlit
 pandas
 networkx
 matplotlib
 torch
-torch-geometric
-scipy
-scikit-learn
+torch_geometric
 osmnx
-shapely
-geopandas
 rasterio
-streamlit
-
+shapely
