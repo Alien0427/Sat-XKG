@@ -5,6 +5,8 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B)
 ![Status](https://img.shields.io/badge/Status-Research_Prototype-success)
 
+**🔴 Live Interactive Dashboard:** [orbitalcompute-ai.streamlit.app](https://orbitalcompute-ai.streamlit.app)
+
 **OrbitalCompute-AI** (also known as Sat-XKG) is a decentralized, edge-native framework designed to bypass the terrestrial communication bottlenecks typical of large-scale natural disasters. By shifting Graph Neural Network (GNN) inference directly to "Edge" hardware (such as LEO satellites or high-altitude UAVs), this system enables real-time resource routing and infrastructure assessment even when ground networks are completely destroyed.
 
 
